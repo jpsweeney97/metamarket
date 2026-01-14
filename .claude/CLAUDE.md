@@ -64,3 +64,19 @@ Exit codes: 0=pass, 1=warning (non-blocking), 2=block
 - **`${CLAUDE_PLUGIN_ROOT}`**: Use in hooks/MCP configs for plugin paths (plugins are cached when installed)
 - **Local development**: Directory source bypasses caching for immediate edit feedback
 - **Source paths**: Must start with `./` in marketplace.json (e.g., `"./plugins/skillosophy"`)
+
+## Reference Documentation
+
+Comprehensive Claude Code extension development guides in `.claude/rules/`:
+
+| File | Covers |
+|------|--------|
+| `plugins.md` | Plugin structure, manifest schema, marketplace distribution |
+| `skills.md` | SKILL.md format, progressive disclosure, hot-reload |
+| `hooks.md` | Hook events, exit codes, input/output schemas |
+| `agents.md` | Agent definitions, Task tool integration |
+| `commands.md` | Slash command format, frontmatter options |
+| `mcp-servers.md` | MCP server configuration, tool definitions |
+| `settings.md` | Settings schema, precedence, permissions |
+
+Consult these when developing or modifying plugin components.
