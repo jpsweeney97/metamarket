@@ -11,6 +11,9 @@
 
 set -euo pipefail
 
+# Early exit: skip if SKILL.md not in input at all (avoids grep/sed overhead)
+[[ "${TOOL_INPUT:-}" != *"SKILL.md"* ]] && exit 0
+
 # Parse file path from tool input
 FILE_PATH=$(echo "$TOOL_INPUT" | grep -oE '"file_path"\s*:\s*"[^"]+"' | sed 's/.*: *"//' | sed 's/"$//' 2>/dev/null || true)
 
