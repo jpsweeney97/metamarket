@@ -3,8 +3,7 @@
   "version": "0.9.0",
   "description": "Collaborative skill creation with deep methodology and multi-agent synthesis",
   "author": {
-    "name": "JP",
-    "url": "https://github.com/jpsweeney97"
+    "name": "JP"
   },
   "repository": "https://github.com/jpsweeney97/metamarket",
   "license": "MIT",

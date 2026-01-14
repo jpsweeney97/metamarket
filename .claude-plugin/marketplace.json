@@ -1,8 +1,7 @@
 {
   "name": "metamarket",
   "owner": {
-    "name": "JP",
-    "url": "https://github.com/jpsweeney97"
+    "name": "JP"
   },
   "metadata": {
     "description": "Meta-level tools for Claude Code development",
