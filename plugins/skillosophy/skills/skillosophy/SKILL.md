@@ -163,7 +163,7 @@ Collaborative skill creation with deep methodology and multi-agent synthesis.
 
 18. **For each section**:
     a. Draft content informed by Phase 1-2 decisions
-    b. Run section checklist ([MUST], [SHOULD], [SEMANTIC])
+    b. Read `references/checklists/{section}.md` and validate against [MUST], [SHOULD], [SEMANTIC] items
     c. Present draft + validation results to user
     d. User approves, edits, or requests regeneration
     e. Write approved section to SKILL.md
@@ -278,13 +278,27 @@ Collaborative skill creation with deep methodology and multi-agent synthesis.
 4. **metadata.decisions present**: Contains requirements, approach, risk_tier
 
 ### Full Validation
-Run checklists for each section:
-```bash
-# Conceptual — implemented as inline checks
-for section in [triggers, when-to-use, ...]:
-    run_checklist(section)
-    report_violations()
-```
+Run checklists for each section by reading the corresponding reference file:
+
+| Section | Checklist File |
+|---------|----------------|
+| Triggers | `references/checklists/triggers.md` |
+| When to Use | `references/checklists/when-to-use.md` |
+| When NOT to Use | `references/checklists/when-not-to-use.md` |
+| Inputs | `references/checklists/inputs.md` |
+| Outputs | `references/checklists/outputs.md` |
+| Procedure | `references/checklists/procedure.md` |
+| Decision Points | `references/checklists/decision-points.md` |
+| Verification | `references/checklists/verification.md` |
+| Troubleshooting | `references/checklists/troubleshooting.md` |
+| Anti-Patterns | `references/checklists/anti-patterns.md` |
+| Extension Points | `references/checklists/extension-points.md` |
+
+Additional references:
+- `references/checklists/frontmatter.md` — Frontmatter validation
+- `references/checklists/session-state.md` — Session state structure
+- `references/methodology/risk-tiers.md` — Risk tier criteria
+- `references/templates/skill-skeleton.md` — Section structure template
 
 ### Panel Verification
 All 4 agents return one of:
