@@ -1,0 +1,26 @@
+{
+  "name": "metamarket",
+  "owner": {
+    "name": "JP",
+    "url": "https://github.com/jpsweeney97"
+  },
+  "metadata": {
+    "description": "Meta-level tools for Claude Code development",
+    "version": "1.0.0",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "skillosophy",
+      "source": "skillosophy",
+      "description": "Collaborative skill creation with deep methodology and multi-agent synthesis",
+      "version": "0.9.0",
+      "author": {
+        "name": "JP"
+      },
+      "license": "MIT",
+      "category": "development-tools",
+      "keywords": ["skill-creation", "meta-skill", "methodology", "synthesis-panel"]
+    }
+  ]
+}
