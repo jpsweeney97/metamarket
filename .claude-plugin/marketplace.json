@@ -6,13 +6,12 @@
   },
   "metadata": {
     "description": "Meta-level tools for Claude Code development",
-    "version": "1.0.0",
-    "pluginRoot": "./plugins"
+    "version": "1.0.0"
   },
   "plugins": [
     {
       "name": "skillosophy",
-      "source": "skillosophy",
+      "source": "./plugins/skillosophy",
       "description": "Collaborative skill creation with deep methodology and multi-agent synthesis",
       "version": "0.9.0",
       "author": {
