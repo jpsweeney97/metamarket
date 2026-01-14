@@ -20,9 +20,6 @@ skillosophy merges skill-wizard's interactive dialogue with skillforge's deep an
 ## Installation
 
 ```bash
-claude plugin install skillosophy@tool-dev
+/plugin marketplace add jpsweeney97/metamarket
+/plugin install skillosophy@metamarket
 ```
-
-## Documentation
-
-See `docs/plans/2026-01-14-skillosophy-design.md` for full design.
