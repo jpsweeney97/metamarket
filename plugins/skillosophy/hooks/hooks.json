@@ -1,4 +1,5 @@
 {
+  "description": "Validates SKILL.md files for required frontmatter and section structure",
   "hooks": {
     "PostToolUse": [
       {
