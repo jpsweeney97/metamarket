@@ -1,0 +1,9 @@
+# Local settings (machine-specific paths)
+.claude/settings.local.json
+.claude/*.local.*
+
+# OS files
+.DS_Store
+
+# Plugin cache (if testing locally)
+.claude/plugins/
